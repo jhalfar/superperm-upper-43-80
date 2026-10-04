@@ -142,6 +142,21 @@
       "construction": "Same modules as the 522,748,520 word (tighter construction); cuts and order optimized by integer programming and local search, using that the 48 large components are relabelled copies (2026-09-30)."
     },
     {
+      "n": 12,
+      "path": "words/12/superpermutation-12-522745538.txt",
+      "length": 522745538,
+      "alphabet": "0123456789AB",
+      "sha256": "e4cd56e55c5ed69a7219ac97d677090075a921fd60718038d5b1e5d36c0b3bcb",
+      "word_sha256": "e5afe06c1c944f8585cfa0d83f7a591c72bc47044b122675a2e74688a76ef7a5",
+      "expected_permutations": 479001600,
+      "extra_permutation_occurrences": 169343,
+      "compressed_filename": "superpermutation-12-522745538.txt.xz",
+      "compressed_path": "words/12/superpermutation-12-522745538.txt.xz",
+      "compressed_bytes": 3634080,
+      "compressed_sha256": "82b74594f5b68a4188f4ef3eebb6a438e9c00327fffd75cdc0de257fb12ebdf7",
+      "construction": "Same modules as the 522,745,581 word; cuts and order re-optimized, with some modules cut open between two 2-cycles of a row instead of at an endpoint word (2026-10-04)."
+    },
+    {
       "n": 13,
       "path": "words/13/superpermutation-13-6747987126.txt",
       "length": 6747987126,
