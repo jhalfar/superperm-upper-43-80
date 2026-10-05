@@ -142,6 +142,21 @@
       "construction": "Same modules as the 522,748,520 word (tighter construction); cuts and order optimized by integer programming and local search, using that the 48 large components are relabelled copies (2026-09-30)."
     },
     {
+      "n": 12,
+      "path": "words/12/superpermutation-12-522745464.txt",
+      "length": 522745464,
+      "alphabet": "0123456789AB",
+      "sha256": "e86ea8cb53583f6d5fb267a8e10fd690b8ff85430e78cbc7cd6f327fe2891c24",
+      "word_sha256": "a2430fcb6daf71c62f7a4e8e201d8538cc244ffbfb77090332d991dfeac5be33",
+      "expected_permutations": 479001600,
+      "extra_permutation_occurrences": 169349,
+      "compressed_filename": "superpermutation-12-522745464.txt.xz",
+      "compressed_path": "words/12/superpermutation-12-522745464.txt.xz",
+      "compressed_bytes": 3528516,
+      "compressed_sha256": "5fe06fb077609729420ed597cfda33ddbf37379d59f48d9f18c6bcc2cb677b7d",
+      "construction": "Same modules as the 522,745,581 word. Continues our 522,745,538 word (PR #5): cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530), then rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search; a few modules are written in two segments around a closed block of other modules (2026-10-05)."
+    },
+    {
       "n": 13,
       "path": "words/13/superpermutation-13-6747987126.txt",
       "length": 6747987126,
