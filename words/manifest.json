@@ -143,18 +143,18 @@
     },
     {
       "n": 12,
-      "path": "words/12/superpermutation-12-522745383.txt",
-      "length": 522745383,
+      "path": "words/12/superpermutation-12-522745376.txt",
+      "length": 522745376,
       "alphabet": "0123456789AB",
-      "sha256": "6d787880b4b660f36428715f11a178af816bd1a936f95cfb518217685d99382e",
-      "word_sha256": "608b38a00ae705e23b4612f7e19ab67af064b96382781679171089f62341ea52",
+      "sha256": "964c633ea377ecbaea3f0d30e974a2ecb925c2e810de8997abf1aa37b92763b1",
+      "word_sha256": "683684f2c35aa779bde0b9c29855277fb57e6635d5b5e9dd939dde9b10d5f57a",
       "expected_permutations": 479001600,
-      "extra_permutation_occurrences": 169350,
-      "compressed_filename": "superpermutation-12-522745383.txt.xz",
-      "compressed_path": "words/12/superpermutation-12-522745383.txt.xz",
-      "compressed_bytes": 4081700,
-      "compressed_sha256": "d38c02b9961310d197541412167af62024649efc36a54fc4c3a528ae27a5a408",
-      "construction": "Same modules as the 522,745,581 word. Continues the 522,745,538 word of PR #5: cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530); rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search (522,745,464); windows of modules moved elsewhere with their neighbours re-cut (522,745,445); then the sequence cut at three joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence. A few modules are written in two segments around a closed block of other modules (2026-10-05)."
+      "extra_permutation_occurrences": 169346,
+      "compressed_filename": "superpermutation-12-522745376.txt.xz",
+      "compressed_path": "words/12/superpermutation-12-522745376.txt.xz",
+      "compressed_bytes": 4049252,
+      "compressed_sha256": "6c0047c82a3552116bdac5c3ca2f18a8c78ffdfe41b4cc1cf0a930d5d4e394fd",
+      "construction": "Same modules as the 522,745,581 word. Continues the 522,745,538 word of PR #5: cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530); rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search (522,745,464); windows of modules moved elsewhere with their neighbours re-cut (522,745,445); the sequence cut at three joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (522,745,383); one more round of local search and of that reassembly. A few modules are written in two segments around a closed block of other modules (2026-10-05)."
     },
     {
       "n": 13,
