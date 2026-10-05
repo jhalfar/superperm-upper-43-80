@@ -84,18 +84,18 @@
     },
     {
       "n": 11,
-      "path": "words/11/superpermutation-11-43930614.txt",
-      "length": 43930614,
+      "path": "words/11/superpermutation-11-43930578.txt",
+      "length": 43930578,
       "alphabet": "0123456789A",
-      "sha256": "388ec7d60116acfac039b45533589f45afa85b13d83ae740a916d3a477ca44ab",
-      "word_sha256": "423f3dd22b6cd3d8409bdec0c437633fb761675394583ab20f9c50b807b6580b",
+      "sha256": "65ddf4c4a3ebaa69de7bc6be29e0b38ad010055f22ef6abeeffdb4f508176092",
+      "word_sha256": "f7d3122f350d56d41945961f9abf36453420bd3068a3941b424f9c0447c7aef5",
       "expected_permutations": 39916800,
-      "extra_permutation_occurrences": 18816,
-      "compressed_filename": "superpermutation-11-43930614.txt.xz",
-      "compressed_path": "words/11/superpermutation-11-43930614.txt.xz",
-      "compressed_bytes": 344876,
-      "compressed_sha256": "825607c33924c535d9034ab4dfe3fc1cfc59d99c26089e5901278eea26223d84",
-      "construction": "Same modules as the 43,930,680 word. Continues the 43,930,628 word of PR #5: the cut of every module chosen at once by dynamic programming for the fixed order (43,930,625), local search with moves of whole blocks of modules (43,930,623), then the sequence cut at three to six joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (2026-10-05)."
+      "extra_permutation_occurrences": 19784,
+      "compressed_filename": "superpermutation-11-43930578.txt.xz",
+      "compressed_path": "words/11/superpermutation-11-43930578.txt.xz",
+      "compressed_bytes": 439108,
+      "compressed_sha256": "94ba506b314d1c011bf5985adf97c7114876bde67689f3b07b891bd7210f9800",
+      "construction": "Other modules than the 43,930,680 word. The selection differs in the 48 blocks of 56 loops above the left-over loops of the 8-symbol selection: each block has a closed walk of 42 rows that show other numbers of classes than a full or a short row, and in 10 blocks these rows lie on one of the large walks. 800 modules instead of 2,800. The small modules are written in chains; then the sequence is cut at three to five joins and reassembled in another order, and a loop of local kicks with local repair gives the last letters (2026-10-05)."
     },
     {
       "n": 12,
