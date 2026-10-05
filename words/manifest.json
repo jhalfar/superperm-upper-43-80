@@ -83,6 +83,21 @@
       "construction": "Same modules as the 43,930,689 word; cuts (including opening at any endpoint word) and order re-optimized (2026-09-30)."
     },
     {
+      "n": 11,
+      "path": "words/11/superpermutation-11-43930614.txt",
+      "length": 43930614,
+      "alphabet": "0123456789A",
+      "sha256": "388ec7d60116acfac039b45533589f45afa85b13d83ae740a916d3a477ca44ab",
+      "word_sha256": "423f3dd22b6cd3d8409bdec0c437633fb761675394583ab20f9c50b807b6580b",
+      "expected_permutations": 39916800,
+      "extra_permutation_occurrences": 18816,
+      "compressed_filename": "superpermutation-11-43930614.txt.xz",
+      "compressed_path": "words/11/superpermutation-11-43930614.txt.xz",
+      "compressed_bytes": 344876,
+      "compressed_sha256": "825607c33924c535d9034ab4dfe3fc1cfc59d99c26089e5901278eea26223d84",
+      "construction": "Same modules as the 43,930,680 word. Continues our 43,930,628 word (PR #5): the cut of every module chosen at once by dynamic programming for the fixed order (43,930,625), local search with moves of whole blocks of modules (43,930,623), then the sequence cut at three to six joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (2026-10-05)."
+    },
+    {
       "n": 12,
       "path": "words/12/superpermutation-12-522752900.txt",
       "length": 522752900,
