@@ -95,7 +95,7 @@
       "compressed_path": "words/11/superpermutation-11-43930614.txt.xz",
       "compressed_bytes": 344876,
       "compressed_sha256": "825607c33924c535d9034ab4dfe3fc1cfc59d99c26089e5901278eea26223d84",
-      "construction": "Same modules as the 43,930,680 word. Continues our 43,930,628 word (PR #5): the cut of every module chosen at once by dynamic programming for the fixed order (43,930,625), local search with moves of whole blocks of modules (43,930,623), then the sequence cut at three to six joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (2026-10-05)."
+      "construction": "Same modules as the 43,930,680 word. Continues the 43,930,628 word of PR #5: the cut of every module chosen at once by dynamic programming for the fixed order (43,930,625), local search with moves of whole blocks of modules (43,930,623), then the sequence cut at three to six joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (2026-10-05)."
     },
     {
       "n": 12,
@@ -143,18 +143,18 @@
     },
     {
       "n": 12,
-      "path": "words/12/superpermutation-12-522745464.txt",
-      "length": 522745464,
+      "path": "words/12/superpermutation-12-522745383.txt",
+      "length": 522745383,
       "alphabet": "0123456789AB",
-      "sha256": "e86ea8cb53583f6d5fb267a8e10fd690b8ff85430e78cbc7cd6f327fe2891c24",
-      "word_sha256": "a2430fcb6daf71c62f7a4e8e201d8538cc244ffbfb77090332d991dfeac5be33",
+      "sha256": "6d787880b4b660f36428715f11a178af816bd1a936f95cfb518217685d99382e",
+      "word_sha256": "608b38a00ae705e23b4612f7e19ab67af064b96382781679171089f62341ea52",
       "expected_permutations": 479001600,
-      "extra_permutation_occurrences": 169349,
-      "compressed_filename": "superpermutation-12-522745464.txt.xz",
-      "compressed_path": "words/12/superpermutation-12-522745464.txt.xz",
-      "compressed_bytes": 3528516,
-      "compressed_sha256": "5fe06fb077609729420ed597cfda33ddbf37379d59f48d9f18c6bcc2cb677b7d",
-      "construction": "Same modules as the 522,745,581 word. Continues our 522,745,538 word (PR #5): cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530), then rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search; a few modules are written in two segments around a closed block of other modules (2026-10-05)."
+      "extra_permutation_occurrences": 169350,
+      "compressed_filename": "superpermutation-12-522745383.txt.xz",
+      "compressed_path": "words/12/superpermutation-12-522745383.txt.xz",
+      "compressed_bytes": 4081700,
+      "compressed_sha256": "d38c02b9961310d197541412167af62024649efc36a54fc4c3a528ae27a5a408",
+      "construction": "Same modules as the 522,745,581 word. Continues the 522,745,538 word of PR #5: cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530); rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search (522,745,464); windows of modules moved elsewhere with their neighbours re-cut (522,745,445); then the sequence cut at three joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence. A few modules are written in two segments around a closed block of other modules (2026-10-05)."
     },
     {
       "n": 13,
