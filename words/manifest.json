@@ -213,17 +213,17 @@
     },
     {
       "n": 13,
-      "path": "words/13/superpermutation-13-6747802875.txt",
-      "length": 6747802875,
+      "path": "words/13/superpermutation-13-6747802562.txt",
+      "length": 6747802562,
       "alphabet": "0123456789ABC",
-      "sha256": "91fc31abc4d28626a6839e3c8263f676377744a173349f4ecfd02a3309a337f6",
-      "word_sha256": "365625ae8f15b719bac0f136a305ab1a85714f62c2314a927cb859beeb482d2b",
+      "sha256": "abe18ff6c25eb7becb05e3009d2245c946fd85e9cb07821baa1d2a7dd7e2f056",
+      "word_sha256": "2cecaf66230619c5200ca3cabbeb5b003a5807b0be2a8be23387cda1d019ef3f",
       "expected_permutations": 6227020800,
-      "extra_permutation_occurrences": 1798297,
-      "compressed_filename": "superpermutation-13-6747802875.txt.xz",
-      "compressed_path": "words/13/superpermutation-13-6747802875.txt.xz",
-      "compressed_bytes": 45089672,
-      "compressed_sha256": "73691264d6812e0f441a1bee6a848ff9a0163823189f6e6ab7a1878912047dd9",
+      "extra_permutation_occurrences": 1798294,
+      "compressed_filename": "superpermutation-13-6747802562.txt.xz",
+      "compressed_path": "words/13/superpermutation-13-6747802562.txt.xz",
+      "compressed_bytes": 45471168,
+      "compressed_sha256": "0137674ff4a879b2d96aba8888899f34bd85ae2cd35f7115599a29c03cbd0f4c",
       "construction": "Other modules than the 6,747,918,066 word. The selection is changed on the 2-loops that lie on all-full trails, one 2-loop in fifteen, which fall into 48 groups of 5,040. The slices of a group are chosen again on 12 symbols, some of them neither full nor short: 23,808 modules instead of 252,000. The order of the chains of modules comes from an assignment problem; then the sequence is cut at three joins and reassembled in another order, and moves that keep the length are taken in every round (2026-10-06)."
     }
   ]
