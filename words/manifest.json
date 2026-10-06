@@ -143,18 +143,18 @@
     },
     {
       "n": 12,
-      "path": "words/12/superpermutation-12-522745355.txt",
-      "length": 522745355,
+      "path": "words/12/superpermutation-12-522737299.txt",
+      "length": 522737299,
       "alphabet": "0123456789AB",
-      "sha256": "f5a5b106ebf9a5ee1deb1f168ffa182d91e5b447685a9f86e33598c655098488",
-      "word_sha256": "11938d57e128b4aa89d1b2cf5d31e357ddaa9f1226dd8856d3e74b9f66aa5535",
+      "sha256": "acac6023eff390880f8fec3e48fc3b7ef24c5a45e71bbf8c328a6d8615901717",
+      "word_sha256": "1718d19d683f4f6a797c87754b24329e297c58181028fbe68b5dd4d89b5a91ad",
       "expected_permutations": 479001600,
-      "extra_permutation_occurrences": 169348,
-      "compressed_filename": "superpermutation-12-522745355.txt.xz",
-      "compressed_path": "words/12/superpermutation-12-522745355.txt.xz",
-      "compressed_bytes": 3961264,
-      "compressed_sha256": "f1b6e8afb44f83e872a64b3bdf85b7d521a58d39766eff8d4535572315e7273f",
-      "construction": "Same modules as the 522,745,581 word. Continues the 522,745,538 word of PR #5: cuts chosen at once by dynamic programming for the fixed order, also allowing cuts inside a 1-cycle as in Theo H.'s 43,930,624 word (522,745,530); rounds of local search that move whole blocks of modules, with the dynamic programme repeated inside the search (522,745,464); windows of modules moved elsewhere with their neighbours re-cut (522,745,445); the sequence cut at three joins and its stretches reassembled in another order, each candidate judged with the best cuts of the whole new sequence (522,745,383); one more round of local search and of that reassembly (522,745,376); then short searches at a high temperature as new starting points for the same steps, with the reassembly at up to five joins (522,745,366, 522,745,356, 522,745,355). A few modules are written in two segments around a closed block of other modules (2026-10-05)."
+      "extra_permutation_occurrences": 177455,
+      "compressed_filename": "superpermutation-12-522737299.txt.xz",
+      "compressed_path": "words/12/superpermutation-12-522737299.txt.xz",
+      "compressed_bytes": 4100972,
+      "compressed_sha256": "31a01e60e95ab307d60286edcdd1c51371e56bc47c13b8d37b6923eab95f17e2",
+      "construction": "Other modules than the 522,745,581 word. The 48 blocks of 504 loops above the left-over loops of the 8-symbol selection are solved again, with rows that show other numbers of classes than a full or a short row: 3,648 modules instead of 25,200. The small modules are written in chains chosen by integer programming; then the sequence is cut at three to five joins and reassembled in another order, and moves that keep the length are taken in every round (2026-10-06)."
     },
     {
       "n": 13,
