@@ -54,6 +54,17 @@
       "construction": "Same rows as the 4,034,894 word, with one connector cycle replaced by an open connector path through 28 trails; endpoints and order optimized jointly (2026-09-30)."
     },
     {
+      "n": 10,
+      "path": "words/10/superpermutation-10-4034855.txt",
+      "length": 4034855,
+      "alphabet": "0123456789",
+      "sha256": "09e2c807aea5f0890d257f97d5d447c0235d41df9589caff8899f01d2016f7f6",
+      "word_sha256": "542a3778662f972a4ea7b9461a9334775f31303a0d8b1a7913169d8beea444ff",
+      "expected_permutations": 3628800,
+      "extra_permutation_occurrences": 2349,
+      "construction": "Other modules than the 4,034,889 word: a selection with the same loops without a row and two closed walks instead of four, so 350 modules instead of 364. The order is that of rumstd's 4,034,873 word (48 groups of seven small modules in 8 chains of 6 groups, a group written as a path or closed into a loop), carried over by a relabelling. The cuts of every group and the places of the 14 large modules are chosen exactly, by dynamic programming and a small integer programme (2026-10-05)."
+    },
+    {
       "n": 11,
       "path": "words/11/superpermutation-11-43930689.txt",
       "length": 43930689,
