@@ -62,7 +62,7 @@
       "word_sha256": "542a3778662f972a4ea7b9461a9334775f31303a0d8b1a7913169d8beea444ff",
       "expected_permutations": 3628800,
       "extra_permutation_occurrences": 2349,
-      "construction": "Other modules than the 4,034,889 word: a selection with the same loops without a row and two closed walks instead of four, so 350 modules instead of 364. The order is that of rumstd's 4,034,873 word (48 groups of seven small modules in 8 chains of 6 groups, a group written as a path or closed into a loop), carried over by a relabelling. The cuts of every group and the places of the 14 large modules are chosen exactly, by dynamic programming and a small integer programme (2026-10-05)."
+      "construction": "Other modules than the 4,034,889 word: a selection on 9 symbols that gives 350 closed trails instead of 364 (the same 336 small ones up to a relabelling, 14 large ones instead of 28). The order is that of rumstd's 4,034,873 word (48 groups of seven small modules in 8 chains of 6 groups, a group written as a path or closed into a loop), carried over by the relabelling. The cuts of every group and the places of the 14 large modules are chosen exactly, by dynamic programming and a small integer programme (2026-10-05)."
     },
     {
       "n": 11,
@@ -106,7 +106,7 @@
       "compressed_path": "words/11/superpermutation-11-43930578.txt.xz",
       "compressed_bytes": 439108,
       "compressed_sha256": "94ba506b314d1c011bf5985adf97c7114876bde67689f3b07b891bd7210f9800",
-      "construction": "Other modules than the 43,930,680 word. The selection differs in the 48 blocks of 56 loops above the left-over loops of the 8-symbol selection: each block has a closed walk of 42 rows that show other numbers of classes than a full or a short row, and in 10 blocks these rows lie on one of the large walks. 800 modules instead of 2,800. The small modules are written in chains; then the sequence is cut at three to five joins and reassembled in another order, and a loop of local kicks with local repair gives the last letters (2026-10-05)."
+      "construction": "Other modules than the 43,930,680 word. The selection is changed on the 2-loops that lie on all-full trails, one 2-loop in fifteen, which fall into 48 groups of 56. Each group gets a closed trail of 42 slices, six of them neither full nor short, and in 10 groups these slices are joined to one of the large closed trails. 800 modules instead of 2,800. The small modules are written in chains; then the sequence is cut at three to five joins and reassembled in another order, and a loop of local kicks with local repair gives the last letters (2026-10-05)."
     },
     {
       "n": 12,
@@ -165,7 +165,7 @@
       "compressed_path": "words/12/superpermutation-12-522737299.txt.xz",
       "compressed_bytes": 4100972,
       "compressed_sha256": "31a01e60e95ab307d60286edcdd1c51371e56bc47c13b8d37b6923eab95f17e2",
-      "construction": "Other modules than the 522,745,581 word. The 48 blocks of 504 loops above the left-over loops of the 8-symbol selection are solved again, with rows that show other numbers of classes than a full or a short row: 3,648 modules instead of 25,200. The small modules are written in chains chosen by integer programming; then the sequence is cut at three to five joins and reassembled in another order, and moves that keep the length are taken in every round (2026-10-06)."
+      "construction": "Other modules than the 522,745,581 word. The selection is changed on the 2-loops that lie on all-full trails, one 2-loop in fifteen, which fall into 48 groups of 504. The slices of a group are chosen again, some of them neither full nor short: 3,648 modules instead of 25,200. The small modules are written in chains chosen by integer programming; then the sequence is cut at three to five joins and reassembled in another order, moves that keep the length are taken in every round, and a loop of local kicks with local repair gives the last letters (2026-10-06)."
     },
     {
       "n": 13,
@@ -224,7 +224,7 @@
       "compressed_path": "words/13/superpermutation-13-6747802875.txt.xz",
       "compressed_bytes": 45089672,
       "compressed_sha256": "73691264d6812e0f441a1bee6a848ff9a0163823189f6e6ab7a1878912047dd9",
-      "construction": "Other modules than the 6,747,918,066 word. The 48 blocks of 5,040 loops above the left-over loops of the 8-symbol selection are solved on 12 symbols, with rows that show other numbers of classes than a full or a short row: 23,808 modules instead of 252,000. The order of the chains of modules comes from an assignment problem; then the sequence is cut at three joins and reassembled in another order, and moves that keep the length are taken in every round (2026-10-06)."
+      "construction": "Other modules than the 6,747,918,066 word. The selection is changed on the 2-loops that lie on all-full trails, one 2-loop in fifteen, which fall into 48 groups of 5,040. The slices of a group are chosen again on 12 symbols, some of them neither full nor short: 23,808 modules instead of 252,000. The order of the chains of modules comes from an assignment problem; then the sequence is cut at three joins and reassembled in another order, and moves that keep the length are taken in every round (2026-10-06)."
     }
   ]
 }
